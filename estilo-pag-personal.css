@@ -1,0 +1,499 @@
+*{
+	font-family: arial;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: flex;
+	justify-content: center;
+	background-color: #1C1C1C;
+	width: 100%;
+	height: auto;
+}
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 10px;
+	width: 100%;
+}
+.logo, .menu{
+	display: flex;
+	align-items: center;
+}
+.container .logo{
+	padding: 10px;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	padding: 10px;
+}
+.menu a{
+	text-decoration: none;
+	color: #FFF;
+}
+.menu-opcoes:hover{
+	border-bottom: 3px solid #B22222;
+}
+.menu .botao{
+	background-color: 	#B22222;
+	padding: 15px 30px;
+	border-radius: 3px;
+}
+.menu .botao:hover{
+	opacity: 0.8;
+	box-shadow: 0 0 0.5em #b22222;
+}
+.menu-responsivo{
+	display: none;
+}
+
+
+
+
+
+
+
+.geral{
+	background: url(Imagens/banner-4.png);
+	background-position: center;
+	background-size: cover;
+	height: 515px;
+	color: 	#FFF;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+}
+.banner-headline{
+	width: 45%;
+	height: auto;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.banner-headline h2{
+	font-size: 1.5em;
+	margin: 5px;
+}
+.botao-cadastro-aula{
+	padding: 15px;
+	background: linear-gradient(-100deg, rgb(178, 34, 34), rgb(128, 0, 0));
+	text-decoration: none;
+	color: #FFF;
+	font-size: 15px;
+	border-radius: 5px;
+	transition: all 200ms ease-in-out;
+}
+.botao-cadastro-aula:hover{
+	background: linear-gradient(27deg, rgb(178, 34, 34), rgb(128, 0, 0));
+	color:	#FFF;
+	transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+.especialidades{
+	margin-bottom: 5%;
+}
+.div-modalidades-text{
+	display: flex;
+	justify-content: center;
+}
+.div-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.titulo{
+	padding-left: 20px;
+}
+.banner-especialidades{
+	background-color:#F2F2F2;
+	max-width: 230px;
+	height: auto; 
+	border-radius: 5px;
+	box-shadow: 0 0 0.5em #000;
+	padding: 10px;
+	margin: 110px 10px 10px;
+}
+.img-especialidades{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.img-especialidades img{
+	width: 60%;
+	border-radius: 50%;
+	margin-top: -90px;
+}
+.banner-especialidades h1{
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+}
+.item{
+	display: flex;
+}
+.item img{
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+.item p{
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+.planos{
+	background-color: #1C1C1C;
+	color: #FFF;
+	height: auto;
+}
+.planos h1{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin: 25px;
+}
+.section-plans{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+.plan{
+	background-color: #FFF;
+	width: 270px;
+	height: 500px;
+	border-radius: 5px;
+	transition: all 200ms ease-in-out;
+	margin-bottom: 50px;
+}
+.plan:hover{
+	transform: scale(1.1);
+}
+.name-plan{
+	background-color: #B22222;
+	display: flex;
+	justify-content: center;
+	height: 20%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.8em;
+	padding-top: 15px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.div-name-price{
+	display: flex;
+	justify-content: center;
+}
+.plan .name-and-price{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.flex-on{
+	width: 80%;
+	background-color: #debd72;
+	margin-top: -50px;
+}
+.name-price{
+	color: #000;
+	font-size: 1em;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Source Sans 3', sans-serif;
+}
+.price{
+	color: #b22222;
+	font-size: 1.8em;
+	font-family: 'Dosis', sans-serif;
+}
+.price-de{
+	color: #b22222;
+	font-size: 1.5em;
+	font-family: 'Dosis', sans-serif;
+}
+.include{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.include img{
+	width: 25px;
+	padding-right: 3%;
+}
+.include p{
+	color: #000;
+	font-size: 0.8em;
+}
+.div-button{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+.include-button{
+	padding: 10px;
+	text-decoration: none;
+	background-color: #B22222;
+	color: #F2F2F2;
+	border-radius: 3px;
+}
+.include-button:hover{
+	color: #1C1C1C;
+}
+
+
+
+
+
+
+
+
+
+.estrutura{
+	background-color:	#D3D3D3;
+	height: auto;
+	padding-bottom: 50px;
+}
+.estrutura h1{
+	font-size: 1.8em;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin: 0;
+}
+.estrutura p{
+	display: flex;
+	justify-content: center;
+}
+.slider{
+	display: flex;	
+	justify-content: center;
+}
+.slider img{
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+.section-contato{
+
+	height: auto;
+}
+.div-contatos{
+	display: flex;
+}
+.contato-redes-sociais{
+	width: 720px;
+	padding: 15px;
+}
+.contato-redes-sociais h1{
+	display: flex;
+	justify-content: center;
+	color: #b22222;
+}
+.lista-ctt{
+	margin-left: 10%;
+}
+.contato-form{
+	width: 720px;
+	display: flex;
+	align-items: center;
+	padding-top: 35px;
+	padding-bottom: 5px;
+}
+.ctt{
+	display: flex;
+	align-items: center;
+}
+.ctt img{
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+.ctt a{
+	text-decoration: none;
+	display: flex;
+	color: #000;
+}
+.ctt p{
+	font-size: 0.9em;
+	padding: 2px;
+}
+#form-contato{
+	display: flex;
+	flex-direction: column;
+	width: 83%;
+	background-color: #363636;
+	padding: 20px;
+	border-radius: 5px;
+}
+#form-contato h3{
+	color: 	#D3D3D3;
+	font-size: 1em;
+}
+#form-contato input, #form-contato textarea{
+	background-color: #1C1C1C;
+	box-shadow: 0 0 0 0;
+  border: 0 none;
+  color: white;
+  padding: 10px;
+}
+#form-contato input[type=submit]{
+	margin: 5px;
+	color: 	#D3D3D3;
+}
+#form-contato input[type=submit]:hover{
+	opacity: 0.7;
+	color: 	#DCDCDC;
+	cursor: pointer;
+}
+.ctt-class{
+	padding: 5px;
+	margin: 5px;
+}
+textarea{
+	height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: #1C1C1C;
+
+	display: flex;
+	justify-content: center;
+}
+.rodape{
+	color: #424242;
+	font-size: 0.6em;
+}
+.img-logo-rodape{
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #424242;
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+/*Rolagem da pagina*/
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+@media (max-width: 1028px){
+	.banner-headline h2{
+		font-size: 1.1em;
+	}
+}
+
+
+@media (max-width: 900px){
+	.container{
+		justify-content: space-around;
+		height: auto;
+		flex-direction: row;
+		padding-bottom: 10px;
+	}
+	.menu nav ul{
+		display: none;
+		align-items: center;
+		flex-direction: column;
+		position: absolute;
+		right: 0;
+		width: 50%;
+		margin-top: 10px;
+		background-color: #1C1C1C;
+		border-radius: 2px;
+	}
+	#botao-aluno{
+		margin: 20px;
+	}
+	.menu-responsivo{
+		display: flex;
+		justify-content: center;
+		width: 60px;
+		height: 60px;
+		margin-right: 30px;
+		cursor: pointer;
+	}
+	.banner-headline{
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 768px){
+	.div-contatos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.contato-form{
+		display: flex;
+		justify-content: center;
+	}
+	.div-modalidades-text h1{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+
+
+@media (max-width: 480px){
+	.estrutura-text h1{
+		margin: 0 0 10px;
+		font-size: 1.3em;
+	}
+	.menu nav ul{
+		width: 100%;
+	}
+	.botao-cadastro-aula{
+		font-size: 0.8em;
+	}
+}
